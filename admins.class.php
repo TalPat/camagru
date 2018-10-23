@@ -17,6 +17,12 @@
 				echo $sql."<br>".$e->getMessage();
 			}
 		}
+
+		function ft_admincheck()
+		{
+			if (!$_SESSION[admin])
+				header('location: index.php');
+		}
 		
 	}
 

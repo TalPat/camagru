@@ -19,7 +19,7 @@
 			passwd VARCHAR(1000) NOT NULL,
 			firstname VARCHAR(45) NOT NULL,
 			lastname VARCHAR(45) NOT NULL,
-			address VARCHAR(100) NOT NULL,
+			refcode varchar(1000) NOT NULL,
 			confirmed int(1) NOT NULL
 		)";
 		$conn->exec($sql);
