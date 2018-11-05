@@ -15,7 +15,7 @@
 
 		<?php $items->ft_printheader(); ?>
 
-		<div id="boxCenter">
+		<div class="container">
 			<h2>Login</h2>
 			<form action="checkLogin.php" method="POST">
 				<table>

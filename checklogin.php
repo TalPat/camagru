@@ -44,7 +44,7 @@
 
 		<?php $items->ft_printheader(); ?>
 
-		<div id="boxCenter">
+		<div class="container">
 			<h2>Unable to Log In</h2>
 			<p><?php echo($out) ?></p>
 		</div>

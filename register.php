@@ -15,7 +15,7 @@
 
 		<?php $items->ft_printheader(); ?>
 
-		<div id="boxCenter">
+		<div class="container">
 			<h2>Register</h2>
 			<form action="checkRegister.php" method="POST">
 				<table>

@@ -45,7 +45,7 @@
 
 		<?php $items->ft_printheader(); ?>
 
-		<div id="boxCenter">
+		<div class="container">
 			<h2>Account Validation</h2>
 			<p><?php echo($out) ?></p>
 		</div>

@@ -17,8 +17,9 @@
 
 		<?php $items->ft_printheader(); ?>
 
-		<div id="boxCenter">
+		<div class="container">
 			<h2><?php print($_SESSION[user]) ?>'s Profile</h2>
+			<a href="photo.php">Take Photo</a>
 		</div>
 
 		<?php $items->ft_printfooter(); ?>
