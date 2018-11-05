@@ -25,7 +25,7 @@
 						<a href="gallery.php">Gallery</a>
 						<a href="Users.php">Users</a>
 					</div>
-					<div class="login" style="float :right;">
+					<div class="login" style="float :right; text-align: right;">
 						'.$logstat.'
 					</div>
 				</div>'
